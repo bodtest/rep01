@@ -35,6 +35,12 @@ AS
   --
   -----------------------------------------------------------------------------
   --
+-- test function
+  FUNCTION get_test2
+  RETURN VARCHAR2;
+  --
+  -----------------------------------------------------------------------------
+  --
   -- This function returns the current SCCS version of the package body
   FUNCTION get_body_version
   RETURN VARCHAR2;
